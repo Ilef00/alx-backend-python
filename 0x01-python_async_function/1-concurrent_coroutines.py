@@ -15,7 +15,7 @@ wait_random = __import__("0-basic_async_syntax").wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Takes 2 int argumentsn and man_delay and returns a list of n
+    Takes 2 int arguments n and max_delay and returns a list of n
     delays in ascending order
     """
     delays: List[float] = []
